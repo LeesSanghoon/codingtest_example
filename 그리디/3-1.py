@@ -9,6 +9,8 @@ coin_type = [500,100,50,10]
 
 for coin in coin_type:
   count += n // coin #해당 화폐로 거슬러 줄 수 있는 동전의 개수 세기
-  n %= coin
+  n %= coin  #n에 coin값을 나누어서 저장함
+
+
 
 print(count)
